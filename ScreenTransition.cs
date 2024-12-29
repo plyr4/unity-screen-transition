@@ -39,9 +39,9 @@ public class ScreenTransition : MonoBehaviour
     [ReadOnlyInspector]
     private TransitionState _state = 0f;
     [SerializeField]
-    private GameEventBase _onTransitionOpenDoneEvent;
+    private GameEvent _onTransitionOpenDoneEvent;
     [SerializeField]
-    private GameEventBase _onTransitionCloseDoneEvent;
+    private GameEvent _onTransitionCloseDoneEvent;
     [SerializeField]
     private RawImage _image;
     [SerializeField]
